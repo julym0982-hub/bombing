@@ -5,7 +5,7 @@ function checkMath() {
         document.getElementById('loginBox').style.display = 'none';
         document.getElementById('controlPanel').style.display = 'block';
     } else {
-        alert("အဖြေမှားနေပါတယ်! 0+1 က 1 ပါဗျ။");
+        alert("Wrong answer 🙂");
         document.getElementById('answerInput').value = ""; 
     }
 }
@@ -43,4 +43,5 @@ async function startBomb() {
     alert("Attack Completed!");
     btn.disabled = false;
     btn.innerText = "LAUNCH ATTACK";
+
 }
